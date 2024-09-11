@@ -12,10 +12,11 @@ namespace Week01Demo
 
         private void btnHelloWorld_Click(object sender, EventArgs e)
         {
-            if ( MessageBox.Show("Hi Clint", "Clint was Here",MessageBoxButtons.YesNoCancel) == DialogResult.Yes)
-            {
-                btnHelloWorld.Text = "Yeah!";
-            };
+            DialogResult dr = MessageBox.Show("Hi Clint", "Clint was Here", MessageBoxButtons.YesNoCancel);
+
+            if (dr == DialogResult.Yes) btnHelloWorld.Text = "Yeah!";
+            else if (dr == DialogResult.No) btnHelloWorld.Text = "Nah!";
+            else btnHelloWorld.Text = "No Way Jose!";
 
         }
     }

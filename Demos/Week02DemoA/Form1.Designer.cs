@@ -80,7 +80,7 @@
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.Location = new System.Drawing.Point(360, 243);
+            this.btnSave.Location = new System.Drawing.Point(360, 253);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(120, 48);
             this.btnSave.TabIndex = 1;
@@ -92,7 +92,7 @@
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(486, 243);
+            this.btnExit.Location = new System.Drawing.Point(486, 253);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(120, 48);
             this.btnExit.TabIndex = 2;
@@ -116,7 +116,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(618, 303);
+            this.ClientSize = new System.Drawing.Size(618, 313);
             this.Controls.Add(this.btnDeselect);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSave);

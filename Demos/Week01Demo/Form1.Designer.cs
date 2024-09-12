@@ -49,7 +49,7 @@
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.Location = new System.Drawing.Point(594, 548);
+            this.btnSave.Location = new System.Drawing.Point(140, 267);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(132, 50);
             this.btnSave.TabIndex = 1;
@@ -59,7 +59,7 @@
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.Location = new System.Drawing.Point(732, 548);
+            this.btnExit.Location = new System.Drawing.Point(278, 267);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(132, 50);
             this.btnExit.TabIndex = 2;
@@ -73,7 +73,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbEditor.Location = new System.Drawing.Point(12, 88);
             this.rtbEditor.Name = "rtbEditor";
-            this.rtbEditor.Size = new System.Drawing.Size(852, 454);
+            this.rtbEditor.Size = new System.Drawing.Size(398, 173);
             this.rtbEditor.TabIndex = 3;
             this.rtbEditor.Text = "";
             // 
@@ -82,7 +82,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(210)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(876, 610);
+            this.ClientSize = new System.Drawing.Size(422, 329);
             this.Controls.Add(this.rtbEditor);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSave);

@@ -1,0 +1,10 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\bin\Debug\Week02DemoC_ColorPicker.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\bin\Debug\Week02DemoC_ColorPicker.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\bin\Debug\Week02DemoC_ColorPicker.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\obj\Debug\Week02DemoC_ColorPicker.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\obj\Debug\Week02DemoC_ColorPicker.frmMain.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\obj\Debug\Week02DemoC_ColorPicker.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\obj\Debug\Week02DemoC_ColorPicker.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\obj\Debug\Week02DemoC_ColorPicker.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\obj\Debug\Week02DemoC_ColorPicker.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week02DemoC_ColorPicker\obj\Debug\Week02DemoC_ColorPicker.pdb

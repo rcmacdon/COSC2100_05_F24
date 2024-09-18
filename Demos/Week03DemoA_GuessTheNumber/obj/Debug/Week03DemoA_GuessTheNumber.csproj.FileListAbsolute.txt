@@ -1,0 +1,10 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\bin\Debug\Week03DemoA_GuessTheNumber.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\bin\Debug\Week03DemoA_GuessTheNumber.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\bin\Debug\Week03DemoA_GuessTheNumber.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\obj\Debug\Week03DemoA_GuessTheNumber.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\obj\Debug\Week03DemoA_GuessTheNumber.frmMain.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\obj\Debug\Week03DemoA_GuessTheNumber.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\obj\Debug\Week03DemoA_GuessTheNumber.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\obj\Debug\Week03DemoA_GuessTheNumber.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\obj\Debug\Week03DemoA_GuessTheNumber.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week03DemoA_GuessTheNumber\obj\Debug\Week03DemoA_GuessTheNumber.pdb

@@ -1,46 +1,59 @@
-﻿using System;
+﻿/* comment header
+ * Title
+ * Author
+ * Date
+ * file specific purpose
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Week02DemoC_ColorPicker
 {
+
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class frmMain : Form
     {
 
         #region Startup 
+
+        /// <summary>
+        /// Main Form Constructor
+        /// </summary>
         public frmMain()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Load Event for the Form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void frmMain_Load(object sender, EventArgs e)
         {
             SetDefaults();
         }
 
+        /// <summary>
+        /// Sets all form controls to their startup default values.
+        /// </summary>
         private void SetDefaults()
         {
             this.nudNumSquares.Minimum = Settings.MIN_NUMSQUARES;
             this.nudNumSquares.Maximum = Settings.MAX_NUMSQUARES;
             this.nudNumSquares.Value = Settings.DEF_NUMSQUARES;
         }
-
-
-
-
-
-
-
-
-
-
-
 
         #endregion
 
@@ -82,13 +95,21 @@ namespace Week02DemoC_ColorPicker
                     // text
                     label.Text = "(" + (int)col.R + "," + (int)col.G + "," + (int)col.B + ")";
 
-                    // add the label to array of labels
-                    Settings.labels[x,y] = label;
+                    // add event handler
+                    label.Click += new System.EventHandler(clickEvent);
 
-                }  // end X
+                    // add the label to array of labels
+                    Settings.labels[x, y] = label;
+
+                } // end X
             } // end Y
         
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="numLabels">number of labels in each direction of the square</param>
         private void ShowLabels(int numLabels) {
             ClearForm();
             // long way
@@ -125,8 +146,15 @@ namespace Week02DemoC_ColorPicker
         {
             ClearForm();
         }
+
         #endregion
 
-
+        private void clickEvent(object sender, EventArgs e)
+        {
+            Label lbl = (Label)sender;
+            lbl.BackColor = Tools.RandomColor();
+            lbl.ForeColor = GetForeColour(lbl.BackColor);
+            lbl.Text = "(" + (int)lbl.BackColor.R + "," + (int)lbl.BackColor.G + "," + (int)lbl.BackColor.B + ")";
+        }
     }
 }

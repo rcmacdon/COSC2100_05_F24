@@ -1,0 +1,10 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\bin\Debug\Week04DemoA_VariableScope.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\bin\Debug\Week04DemoA_VariableScope.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\bin\Debug\Week04DemoA_VariableScope.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\obj\Debug\Week04DemoA_VariableScope.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\obj\Debug\Week04DemoA_VariableScope.Form1.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\obj\Debug\Week04DemoA_VariableScope.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\obj\Debug\Week04DemoA_VariableScope.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\obj\Debug\Week04DemoA_VariableScope.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\obj\Debug\Week04DemoA_VariableScope.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week04DemoA_VariableScope\obj\Debug\Week04DemoA_VariableScope.pdb

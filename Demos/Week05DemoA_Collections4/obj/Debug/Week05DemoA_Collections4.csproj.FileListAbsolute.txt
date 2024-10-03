@@ -1,0 +1,10 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\bin\Debug\Week05DemoA_Collections4.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\bin\Debug\Week05DemoA_Collections4.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\bin\Debug\Week05DemoA_Collections4.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\obj\Debug\Week05DemoA_Collections4.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\obj\Debug\Week05DemoA_Collections4.frmCollections.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\obj\Debug\Week05DemoA_Collections4.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\obj\Debug\Week05DemoA_Collections4.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\obj\Debug\Week05DemoA_Collections4.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\obj\Debug\Week05DemoA_Collections4.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week05DemoA_Collections4\obj\Debug\Week05DemoA_Collections4.pdb

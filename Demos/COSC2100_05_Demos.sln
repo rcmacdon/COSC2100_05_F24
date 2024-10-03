@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week03DemoA_GuessTheNumberO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week04DemoA_VariableScope", "Week04DemoA_VariableScope\Week04DemoA_VariableScope.csproj", "{B400498D-5DF7-4980-9655-843AC959127A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week05DemoA_Collections4", "Week05DemoA_Collections4\Week05DemoA_Collections4.csproj", "{90270A32-299B-4E70-A31A-3CAB8D565A5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B400498D-5DF7-4980-9655-843AC959127A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B400498D-5DF7-4980-9655-843AC959127A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B400498D-5DF7-4980-9655-843AC959127A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90270A32-299B-4E70-A31A-3CAB8D565A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90270A32-299B-4E70-A31A-3CAB8D565A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90270A32-299B-4E70-A31A-3CAB8D565A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90270A32-299B-4E70-A31A-3CAB8D565A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

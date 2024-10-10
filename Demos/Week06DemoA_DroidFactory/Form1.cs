@@ -26,15 +26,31 @@ namespace Week06DemoA_DroidFactory
         #region Control Event Handlers
         private void Form1_Load(object sender, EventArgs e)
         {
-          
-
-
-            
+            Droid.PopulateSampleDroids(); // temporary method
+            PopulateDroidList();
+            ResetDroidEntryForm();
         }
 
         private void btnSellDroid_Click(object sender, EventArgs e)
         {
-           
+            frmInputBox frm = new frmInputBox();
+
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                if (lboxDroids.SelectedIndex != -1)
+                {
+                    String dd = lboxDroids.SelectedItem.ToString();
+
+                    // find this droid in the list of droids
+                    Droid d = Droid.FindDroid(dd);
+
+                    if (d != null)
+                    {
+                        d.SellDroid(frm.InputValue, true);
+                        PopulateDroidDetails(d);
+                    }
+                }
+            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -59,33 +75,52 @@ namespace Week06DemoA_DroidFactory
 
         private void lboxDroids_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (lboxDroids.SelectedIndex != -1) 
+            { 
+                String dd = lboxDroids.SelectedItem.ToString();
             
+                // find this droid in the list of droids
+                Droid d = Droid.FindDroid(dd);
+
+                if (d != null)
+                {
+                    PopulateDroidDetails(d);
+                }
+            }
         }
 
         private void btnResetDroid_Click(object sender, EventArgs e)
         {
-           
+            ResetDroidEntryForm();
         }
 
         private void btnSaveDroid_Click(object sender, EventArgs e)
         {
-            // instantiate a new droid and set it properties
-            Droid tempDroid = new Droid();
-            tempDroid.Designation = this.txtDesignation.Text.Trim();
-            tempDroid.Owner = this.txtOwner.Text.Trim();
-            tempDroid.IsInService = this.chkInService.Checked;
-            tempDroid.PrimaryColor = this.lblPrimaryColour.BackColor;
-            tempDroid.SecondaryColor = this.lblSecondaryColour.BackColor;
 
-            // add it to the list of droids
-            Droid.droids.Add(tempDroid);
+            if (txtDesignation.Text.Trim().Length >= Droid.MIN_DESIGNATION_LENGTH
+                && txtDesignation.Text.Trim().Length <= Droid.MAX_DESIGNATION_LENGTH)
+            {
+                // instantiate a new droid and set it properties
+                Droid tempDroid = new Droid();
+                tempDroid.Designation = this.txtDesignation.Text.Trim();
+                tempDroid.Owner = this.txtOwner.Text.Trim();
+                tempDroid.IsInService = this.chkInService.Checked;
+                tempDroid.PrimaryColor = this.lblPrimaryColour.BackColor;
+                tempDroid.SecondaryColor = this.lblSecondaryColour.BackColor;
 
-            // update the listbox to show the latest list
-            PopulateDroidList();
+                // add it to the list of droids
+                Droid.droids.Add(tempDroid);
+
+                // update the listbox to show the latest list
+                PopulateDroidList();
+
+                ResetDroidEntryForm();
+            }
         }
         #endregion
 
         #region Custom UI Functions and Methods
+
         private void PopulateDroidList()
         {
             lboxDroids.Items.Clear();
@@ -95,6 +130,25 @@ namespace Week06DemoA_DroidFactory
             }
         }
 
+        private void ResetDroidEntryForm()
+        {
+            txtDesignation.Text = String.Empty;
+            txtOwner.Text = String.Empty;
+            chkInService.Checked = false;
+            lblPrimaryColour.BackColor = Color.Gray;
+            lblSecondaryColour.BackColor = Color.Gray;
+
+            txtDesignation.Focus();
+        }
+
+        private void PopulateDroidDetails(Droid droid)
+        {
+            lblDetailsDesignation.Text = droid.Designation;
+            lblDetailsOwner.Text = droid.Owner;
+            chkDetailsInService.Checked = droid.IsInService;
+            lblDetailsPrimaryColour.BackColor = droid.PrimaryColor;
+            lblDetailsSecondaryColour.BackColor = droid.SecondaryColor;
+        }
         #endregion
 
 

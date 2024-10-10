@@ -70,7 +70,7 @@ namespace Week06DemoA_DroidFactory
             this.label2.Location = new System.Drawing.Point(21, 149);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 45);
+            this.label2.Size = new System.Drawing.Size(90, 59);
             this.label2.TabIndex = 6;
             this.label2.Text = "Primary Colour";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -335,7 +335,7 @@ namespace Week06DemoA_DroidFactory
             this.label3.Location = new System.Drawing.Point(167, 149);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 45);
+            this.label3.Size = new System.Drawing.Size(103, 59);
             this.label3.TabIndex = 7;
             this.label3.Text = "Secondary Colour";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

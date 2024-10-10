@@ -8,3 +8,4 @@ D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week06DemoA_DroidFa
 D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week06DemoA_DroidFactory\obj\Debug\Week06DemoA_DroidFactory.csproj.CoreCompileInputs.cache
 D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week06DemoA_DroidFactory\obj\Debug\Week06DemoA_DroidFactory.exe
 D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week06DemoA_DroidFactory\obj\Debug\Week06DemoA_DroidFactory.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week06DemoA_DroidFactory\obj\Debug\Week06DemoA_DroidFactory.frmInputBox.resources

@@ -59,6 +59,7 @@ namespace Week06DemoA_DroidFactory
             this.grpSavedDroids = new System.Windows.Forms.GroupBox();
             this.grpCreator = new System.Windows.Forms.GroupBox();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.btnEdit = new System.Windows.Forms.Button();
             this.grpDroidDetails.SuspendLayout();
             this.grpSavedDroids.SuspendLayout();
             this.grpCreator.SuspendLayout();
@@ -88,7 +89,7 @@ namespace Week06DemoA_DroidFactory
             // btnResetDroid
             // 
             this.btnResetDroid.Location = new System.Drawing.Point(22, 269);
-            this.btnResetDroid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnResetDroid.Margin = new System.Windows.Forms.Padding(4);
             this.btnResetDroid.Name = "btnResetDroid";
             this.btnResetDroid.Size = new System.Drawing.Size(96, 51);
             this.btnResetDroid.TabIndex = 12;
@@ -99,7 +100,7 @@ namespace Week06DemoA_DroidFactory
             // btnSaveDroid
             // 
             this.btnSaveDroid.Location = new System.Drawing.Point(427, 269);
-            this.btnSaveDroid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSaveDroid.Margin = new System.Windows.Forms.Padding(4);
             this.btnSaveDroid.Name = "btnSaveDroid";
             this.btnSaveDroid.Size = new System.Drawing.Size(136, 52);
             this.btnSaveDroid.TabIndex = 11;
@@ -110,7 +111,7 @@ namespace Week06DemoA_DroidFactory
             // btnSecondaryColour
             // 
             this.btnSecondaryColour.Location = new System.Drawing.Point(472, 185);
-            this.btnSecondaryColour.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSecondaryColour.Margin = new System.Windows.Forms.Padding(4);
             this.btnSecondaryColour.Name = "btnSecondaryColour";
             this.btnSecondaryColour.Size = new System.Drawing.Size(58, 51);
             this.btnSecondaryColour.TabIndex = 10;
@@ -141,7 +142,7 @@ namespace Week06DemoA_DroidFactory
             // btnSetPrimaryColour
             // 
             this.btnSetPrimaryColour.Location = new System.Drawing.Point(177, 185);
-            this.btnSetPrimaryColour.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSetPrimaryColour.Margin = new System.Windows.Forms.Padding(4);
             this.btnSetPrimaryColour.Name = "btnSetPrimaryColour";
             this.btnSetPrimaryColour.Size = new System.Drawing.Size(58, 51);
             this.btnSetPrimaryColour.TabIndex = 7;
@@ -164,7 +165,7 @@ namespace Week06DemoA_DroidFactory
             this.chkDetailsInService.AutoSize = true;
             this.chkDetailsInService.Enabled = false;
             this.chkDetailsInService.Location = new System.Drawing.Point(21, 57);
-            this.chkDetailsInService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkDetailsInService.Margin = new System.Windows.Forms.Padding(4);
             this.chkDetailsInService.Name = "chkDetailsInService";
             this.chkDetailsInService.Size = new System.Drawing.Size(113, 29);
             this.chkDetailsInService.TabIndex = 1;
@@ -187,7 +188,7 @@ namespace Week06DemoA_DroidFactory
             this.lboxDroids.FormattingEnabled = true;
             this.lboxDroids.ItemHeight = 25;
             this.lboxDroids.Location = new System.Drawing.Point(14, 57);
-            this.lboxDroids.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lboxDroids.Margin = new System.Windows.Forms.Padding(4);
             this.lboxDroids.Name = "lboxDroids";
             this.lboxDroids.Size = new System.Drawing.Size(181, 304);
             this.lboxDroids.TabIndex = 1;
@@ -206,7 +207,7 @@ namespace Week06DemoA_DroidFactory
             // txtOwner
             // 
             this.txtOwner.Location = new System.Drawing.Point(162, 109);
-            this.txtOwner.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtOwner.Margin = new System.Windows.Forms.Padding(4);
             this.txtOwner.Name = "txtOwner";
             this.txtOwner.Size = new System.Drawing.Size(399, 37);
             this.txtOwner.TabIndex = 4;
@@ -225,7 +226,7 @@ namespace Week06DemoA_DroidFactory
             // txtDesignation
             // 
             this.txtDesignation.Location = new System.Drawing.Point(162, 55);
-            this.txtDesignation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDesignation.Margin = new System.Windows.Forms.Padding(4);
             this.txtDesignation.Name = "txtDesignation";
             this.txtDesignation.Size = new System.Drawing.Size(207, 37);
             this.txtDesignation.TabIndex = 1;
@@ -257,7 +258,7 @@ namespace Week06DemoA_DroidFactory
             this.chkInService.AutoSize = true;
             this.chkInService.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.chkInService.Location = new System.Drawing.Point(401, 61);
-            this.chkInService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkInService.Margin = new System.Windows.Forms.Padding(4);
             this.chkInService.Name = "chkInService";
             this.chkInService.Size = new System.Drawing.Size(113, 29);
             this.chkInService.TabIndex = 2;
@@ -297,6 +298,7 @@ namespace Week06DemoA_DroidFactory
             // 
             // grpDroidDetails
             // 
+            this.grpDroidDetails.Controls.Add(this.btnEdit);
             this.grpDroidDetails.Controls.Add(this.btnSellDroid);
             this.grpDroidDetails.Controls.Add(this.lblDetailsSecondaryColour);
             this.grpDroidDetails.Controls.Add(this.lblDetailsPrimaryColour);
@@ -308,9 +310,9 @@ namespace Week06DemoA_DroidFactory
             this.grpDroidDetails.Controls.Add(this.lblDetailsDesignation);
             this.grpDroidDetails.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.grpDroidDetails.Location = new System.Drawing.Point(219, 48);
-            this.grpDroidDetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpDroidDetails.Margin = new System.Windows.Forms.Padding(4);
             this.grpDroidDetails.Name = "grpDroidDetails";
-            this.grpDroidDetails.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpDroidDetails.Padding = new System.Windows.Forms.Padding(4);
             this.grpDroidDetails.Size = new System.Drawing.Size(345, 315);
             this.grpDroidDetails.TabIndex = 2;
             this.grpDroidDetails.TabStop = false;
@@ -320,10 +322,10 @@ namespace Week06DemoA_DroidFactory
             // 
             this.btnSellDroid.BackColor = System.Drawing.Color.Navy;
             this.btnSellDroid.ForeColor = System.Drawing.Color.White;
-            this.btnSellDroid.Location = new System.Drawing.Point(240, 260);
-            this.btnSellDroid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSellDroid.Location = new System.Drawing.Point(189, 260);
+            this.btnSellDroid.Margin = new System.Windows.Forms.Padding(4);
             this.btnSellDroid.Name = "btnSellDroid";
-            this.btnSellDroid.Size = new System.Drawing.Size(96, 47);
+            this.btnSellDroid.Size = new System.Drawing.Size(147, 47);
             this.btnSellDroid.TabIndex = 10;
             this.btnSellDroid.Text = "Sell Droid";
             this.btnSellDroid.UseVisualStyleBackColor = false;
@@ -347,7 +349,7 @@ namespace Week06DemoA_DroidFactory
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnExit.ForeColor = System.Drawing.Color.White;
             this.btnExit.Location = new System.Drawing.Point(1092, 813);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(96, 49);
             this.btnExit.TabIndex = 7;
@@ -363,9 +365,9 @@ namespace Week06DemoA_DroidFactory
             this.grpSavedDroids.Controls.Add(this.lblDroidsTitle);
             this.grpSavedDroids.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.grpSavedDroids.Location = new System.Drawing.Point(30, 441);
-            this.grpSavedDroids.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpSavedDroids.Margin = new System.Windows.Forms.Padding(4);
             this.grpSavedDroids.Name = "grpSavedDroids";
-            this.grpSavedDroids.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpSavedDroids.Padding = new System.Windows.Forms.Padding(4);
             this.grpSavedDroids.Size = new System.Drawing.Size(595, 391);
             this.grpSavedDroids.TabIndex = 6;
             this.grpSavedDroids.TabStop = false;
@@ -389,9 +391,9 @@ namespace Week06DemoA_DroidFactory
             this.grpCreator.Controls.Add(this.lblDesignationLabel);
             this.grpCreator.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.grpCreator.Location = new System.Drawing.Point(30, 69);
-            this.grpCreator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpCreator.Margin = new System.Windows.Forms.Padding(4);
             this.grpCreator.Name = "grpCreator";
-            this.grpCreator.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpCreator.Padding = new System.Windows.Forms.Padding(4);
             this.grpCreator.Size = new System.Drawing.Size(595, 353);
             this.grpCreator.TabIndex = 5;
             this.grpCreator.TabStop = false;
@@ -411,6 +413,19 @@ namespace Week06DemoA_DroidFactory
             this.lblTitle.TabIndex = 4;
             this.lblTitle.Text = "Droid Factory";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.BackColor = System.Drawing.Color.Navy;
+            this.btnEdit.ForeColor = System.Drawing.Color.White;
+            this.btnEdit.Location = new System.Drawing.Point(8, 263);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(147, 47);
+            this.btnEdit.TabIndex = 11;
+            this.btnEdit.Text = "Edit Droid";
+            this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // Form1
             // 
@@ -472,5 +487,6 @@ namespace Week06DemoA_DroidFactory
         private System.Windows.Forms.GroupBox grpCreator;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnSellDroid;
+        private System.Windows.Forms.Button btnEdit;
     }
 }

@@ -1,0 +1,12 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\bin\Debug\Week10DemoA_DataBindingPlus.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\bin\Debug\Week10DemoA_DataBindingPlus.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\bin\Debug\Week10DemoA_DataBindingPlus.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\obj\Debug\Week10DemoA_DataBindingPlus.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\obj\Debug\Week10DemoA_DataBindingPlus.frmSplash.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\obj\Debug\Week10DemoA_DataBindingPlus.frmStudents.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\obj\Debug\Week10DemoA_DataBindingPlus.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\obj\Debug\Week10DemoA_DataBindingPlus.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\obj\Debug\Week10DemoA_DataBindingPlus.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\obj\Debug\Week10DemoA_DataBindingPlus.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\obj\Debug\Week10DemoA_DataBindingPlus.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week10DemoA_DataBindingPlus\obj\Debug\Week10DemoA_DataBindingPlus.frmEmployees.resources

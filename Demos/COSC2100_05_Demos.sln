@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week09DemoA_ExceptionHandin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week09DemoB_FileIO", "Week09DemoB_FileIO\Week09DemoB_FileIO.csproj", "{E99A470C-775E-4839-9780-C997741E7FA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week10DemoA_DataBindingPlus", "Week10DemoA_DataBindingPlus\Week10DemoA_DataBindingPlus.csproj", "{B083CF52-612A-45D8-B892-D24FB1FF47C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{E99A470C-775E-4839-9780-C997741E7FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E99A470C-775E-4839-9780-C997741E7FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E99A470C-775E-4839-9780-C997741E7FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B083CF52-612A-45D8-B892-D24FB1FF47C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B083CF52-612A-45D8-B892-D24FB1FF47C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B083CF52-612A-45D8-B892-D24FB1FF47C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B083CF52-612A-45D8-B892-D24FB1FF47C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

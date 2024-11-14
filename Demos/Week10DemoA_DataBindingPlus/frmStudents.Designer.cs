@@ -48,6 +48,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.ssLblStudent = new System.Windows.Forms.ToolStripStatusLabel();
             this.ssLblCurrentStudent = new System.Windows.Forms.ToolStripStatusLabel();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -240,11 +241,23 @@
             this.ssLblCurrentStudent.Size = new System.Drawing.Size(76, 25);
             this.ssLblCurrentStudent.Text = "- none -";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(595, 225);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(178, 59);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Countries";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnDatabase);
@@ -294,6 +307,7 @@
         private System.Windows.Forms.ToolStripStatusLabel ssLblStudent;
         private System.Windows.Forms.ToolStripStatusLabel ssLblCurrentStudent;
         private System.Windows.Forms.BindingSource studentBindingSource;
+        private System.Windows.Forms.Button button1;
     }
 }
 

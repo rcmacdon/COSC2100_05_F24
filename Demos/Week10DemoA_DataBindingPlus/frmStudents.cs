@@ -104,5 +104,11 @@ namespace Week10DemoA_DataBindingPlus
             frmEmployees frm = new frmEmployees();
             frm.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmCountries frm = new frmCountries();  
+            frm.ShowDialog();
+        }
     }
 }

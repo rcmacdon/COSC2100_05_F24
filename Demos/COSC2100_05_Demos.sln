@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week09DemoB_FileIO", "Week0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week10DemoA_DataBindingPlus", "Week10DemoA_DataBindingPlus\Week10DemoA_DataBindingPlus.csproj", "{B083CF52-612A-45D8-B892-D24FB1FF47C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week11Demo_DataGrid_Inheritance_Abstraction", "Week11Demo_DataGrid_Inheritance_Abstraction\Week11Demo_DataGrid_Inheritance_Abstraction.csproj", "{F7EA3781-C34F-409C-9D93-B5F9D5E3813B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B083CF52-612A-45D8-B892-D24FB1FF47C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B083CF52-612A-45D8-B892-D24FB1FF47C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B083CF52-612A-45D8-B892-D24FB1FF47C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EA3781-C34F-409C-9D93-B5F9D5E3813B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EA3781-C34F-409C-9D93-B5F9D5E3813B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EA3781-C34F-409C-9D93-B5F9D5E3813B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EA3781-C34F-409C-9D93-B5F9D5E3813B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

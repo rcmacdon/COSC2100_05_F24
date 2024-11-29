@@ -1,0 +1,12 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\bin\Debug\Week12DemoB_MDIForms_Singleton.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\bin\Debug\Week12DemoB_MDIForms_Singleton.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\bin\Debug\Week12DemoB_MDIForms_Singleton.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\obj\Debug\Week12DemoB_MDIForms_Singleton.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\obj\Debug\Week12DemoB_MDIForms_Singleton.Form1.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\obj\Debug\Week12DemoB_MDIForms_Singleton.frmSubForm.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\obj\Debug\Week12DemoB_MDIForms_Singleton.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\obj\Debug\Week12DemoB_MDIForms_Singleton.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\obj\Debug\Week12DemoB_MDIForms_Singleton.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\obj\Debug\Week12DemoB_MDIForms_Singleton.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\obj\Debug\Week12DemoB_MDIForms_Singleton.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12DemoB_MDIForms_Singleton\obj\Debug\Week12DemoB_MDIForms_Singleton.frmBrother.resources

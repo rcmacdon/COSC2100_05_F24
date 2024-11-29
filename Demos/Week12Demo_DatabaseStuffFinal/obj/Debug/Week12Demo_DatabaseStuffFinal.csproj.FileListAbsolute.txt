@@ -1,0 +1,11 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\bin\Debug\Week12Demo_DatabaseStuffFinal.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\bin\Debug\Week12Demo_DatabaseStuffFinal.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\bin\Debug\Week12Demo_DatabaseStuffFinal.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\obj\Debug\Week12Demo_DatabaseStuffFinal.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\obj\Debug\Week12Demo_DatabaseStuffFinal.Form1.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\obj\Debug\Week12Demo_DatabaseStuffFinal.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\obj\Debug\Week12Demo_DatabaseStuffFinal.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\obj\Debug\Week12Demo_DatabaseStuffFinal.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\obj\Debug\Week12Demo_DatabaseStuffFinal.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\obj\Debug\Week12Demo_DatabaseStuffFinal.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_05_F24\Demos\Week12Demo_DatabaseStuffFinal\obj\Debug\Week12Demo_DatabaseStuffFinal.frmCountries.resources
